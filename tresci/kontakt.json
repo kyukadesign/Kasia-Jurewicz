@@ -1,0 +1,19 @@
+{
+  "wstep": "Napisz, czego dotyczy sprawa, i zostaw telefon albo e-mail – odezwę się, żeby umówić rozmowę.",
+  "po_kontakcie": [
+    {
+      "tytul": "Prośba o kontakt",
+      "opis": "Wystarczą imię, telefon albo e-mail i ogólny temat sprawy."
+    },
+    {
+      "tytul": "Kontakt zwrotny",
+      "opis": "Oddzwaniam lub odpisuję, żeby umówić termin rozmowy."
+    },
+    {
+      "tytul": "Rozmowa",
+      "opis": "Poznaję sprawę. Zanim zacznę działać, uzgadniam z Tobą zakres pomocy i sposób rozliczenia."
+    }
+  ],
+  "pierwsza_rozmowa": "",
+  "formularz_wstep": "Trzy pola – tyle wystarczy, żebym mogła się odezwać."
+}

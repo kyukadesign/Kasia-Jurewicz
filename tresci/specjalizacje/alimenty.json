@@ -1,0 +1,24 @@
+{
+  "nazwa": "Alimenty",
+  "krotki_opis": "Ustalenie, podwyższenie, obniżenie albo uchylenie alimentów – na dziecko i między małżonkami.",
+  "wstep": "Pomagam ustalić alimenty albo zmienić ich wysokość, gdy zmieniła się sytuacja jednej ze stron.",
+  "kiedy": [
+    "Trzeba ustalić alimenty na dziecko albo na małżonka.",
+    "Zmieniły się potrzeby dziecka albo możliwości zarobkowe jednej ze stron.",
+    "Otrzymujesz pozew o alimenty albo o zmianę ich wysokości."
+  ],
+  "pomoc": [
+    "Ustalenie alimentów",
+    "Podwyższenie lub obniżenie alimentów po zmianie sytuacji",
+    "Uchylenie obowiązku alimentacyjnego",
+    "Alimenty między małżonkami i byłymi małżonkami",
+    "Zabezpieczenie alimentów na czas trwania sprawy"
+  ],
+  "przygotuj": [
+    "Dotychczasowy wyrok lub ugodę w sprawie alimentów, jeśli są",
+    "Zestawienie kosztów utrzymania dziecka – rachunki, faktury, opłaty",
+    "Informacje o dochodach – Twoich i drugiej strony, jeśli je znasz",
+    "Pisma z sądu, jeśli sprawa już się toczy"
+  ],
+  "warto_wiedziec": ""
+}

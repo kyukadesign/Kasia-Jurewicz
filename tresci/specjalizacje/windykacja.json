@@ -1,0 +1,23 @@
+{
+  "nazwa": "Windykacja",
+  "krotki_opis": "Odzyskiwanie należności – od wezwania do zapłaty po etap egzekucji.",
+  "wstep": "Pomagam odzyskać należności – najpierw polubownie, a jeśli to nie wystarczy, przed sądem i na etapie egzekucji.",
+  "kiedy": [
+    "Kontrahent albo dłużnik nie płaci w terminie, a upomnienia nie przynoszą skutku.",
+    "Chcesz sprawdzić, czy roszczenie nie jest przedawnione i jak je udokumentować.",
+    "Masz wyrok lub nakaz zapłaty, a dłużnik nadal nie płaci."
+  ],
+  "pomoc": [
+    "Analiza dokumentów i terminów przedawnienia",
+    "Wezwanie do zapłaty i próba polubownego rozwiązania",
+    "Postępowanie sądowe o zapłatę",
+    "Współpraca z komornikiem na etapie egzekucji"
+  ],
+  "przygotuj": [
+    "Umowę, zamówienie lub inny dokument, z którego wynika należność",
+    "Faktury i potwierdzenia wykonania usługi lub dostawy",
+    "Korespondencję z dłużnikiem, w tym wezwania i odpowiedzi",
+    "Dane dłużnika: nazwę, adres, NIP lub numer KRS"
+  ],
+  "warto_wiedziec": ""
+}

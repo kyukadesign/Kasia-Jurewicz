@@ -1,0 +1,24 @@
+{
+  "nazwa": "Spadki",
+  "krotki_opis": "Stwierdzenie nabycia spadku, przyjęcie lub odrzucenie spadku, dział spadku i zachowek.",
+  "wstep": "Wyjaśniam, kto i na jakich zasadach dziedziczy, i prowadzę sprawy spadkowe przed sądem.",
+  "kiedy": [
+    "Po śmierci bliskiej osoby trzeba zdecydować, czy przyjąć, czy odrzucić spadek.",
+    "Trzeba formalnie potwierdzić, kto jest spadkobiercą.",
+    "Spadkobiercy nie mogą porozumieć się co do podziału majątku albo chodzi o zachowek."
+  ],
+  "pomoc": [
+    "Stwierdzenie nabycia spadku",
+    "Przyjęcie lub odrzucenie spadku – terminy i skutki",
+    "Dział spadku",
+    "Zachowek",
+    "Wyjaśnienie skutków testamentu"
+  ],
+  "przygotuj": [
+    "Akt zgonu spadkodawcy",
+    "Testament, jeśli został sporządzony",
+    "Informację, od kiedy wiesz o spadku – od tego zależy termin na decyzję",
+    "Dokumenty dotyczące majątku i długów spadkodawcy, jeśli je masz"
+  ],
+  "warto_wiedziec": "Na przyjęcie lub odrzucenie spadku jest sześć miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swojego powołania. Jeśli w tym czasie nie złoży oświadczenia, spadek przechodzi na niego z dobrodziejstwem inwentarza."
+}

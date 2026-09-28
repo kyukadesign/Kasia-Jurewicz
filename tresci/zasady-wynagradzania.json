@@ -1,0 +1,29 @@
+{
+  "wstep": "Wynagrodzenie zależy od rodzaju sprawy i nakładu pracy. Ustalam je indywidualnie, po zapoznaniu się ze sprawą.",
+  "kroki": [
+    {
+      "tytul": "Rozmowa o sprawie",
+      "opis": "Poznaję sytuację i dokumenty. Mówię, jakie czynności będą potrzebne."
+    },
+    {
+      "tytul": "Zakres i sposób rozliczenia",
+      "opis": "Proponuję zakres pomocy i sposób rozliczenia. Uzgadniamy je, zanim zacznę pracę nad sprawą."
+    },
+    {
+      "tytul": "Zmiany w trakcie",
+      "opis": "Jeśli sprawa wymaga czynności spoza uzgodnionego zakresu, najpierw o tym rozmawiamy."
+    }
+  ],
+  "formy_rozliczenia": [],
+  "koszty": [
+    {
+      "nazwa": "Wynagrodzenie kancelarii",
+      "opis": "ustalane indywidualnie; zakres i sposób rozliczenia uzgadniamy przed rozpoczęciem współpracy"
+    },
+    {
+      "nazwa": "Opłaty sądowe i skarbowe",
+      "opis": "według przepisów, na rzecz sądu lub urzędu – nie są wynagrodzeniem kancelarii"
+    }
+  ],
+  "inne_wydatki": ""
+}

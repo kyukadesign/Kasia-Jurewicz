@@ -1,0 +1,22 @@
+{
+  "nazwa": "Opiniowanie umów",
+  "krotki_opis": "Sprawdzam umowę przed podpisaniem: wyjaśniam zapisy, wskazuję ryzyka, proponuję zmiany.",
+  "wstep": "Czytam umowę, zanim ją podpiszesz, i wyjaśniam, co z niej wynika – dla osób prywatnych i dla firm.",
+  "kiedy": [
+    "Druga strona przysłała projekt umowy i chcesz wiedzieć, jakie obowiązki i ryzyka z niego wynikają.",
+    "Umowa ma obowiązywać długo, dotyczy dużej kwoty albo trudno będzie ją rozwiązać.",
+    "Chcesz negocjować zmiany i potrzebujesz argumentów."
+  ],
+  "pomoc": [
+    "Analiza zapisów umowy i wskazanie ryzyk",
+    "Wyjaśnienie skutków umowy przed jej podpisaniem",
+    "Propozycje zmian i uzupełnień",
+    "Umowy zawierane przez osoby prywatne i przez przedsiębiorców"
+  ],
+  "przygotuj": [
+    "Projekt umowy – najlepiej w wersji do edycji",
+    "Załączniki, regulaminy i ogólne warunki, do których odsyła umowa",
+    "Informację, na czym Ci najbardziej zależy i kiedy umowa ma być podpisana"
+  ],
+  "warto_wiedziec": ""
+}

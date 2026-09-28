@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Jak zmieniać teksty na stronie kancelarii</title>
+<style>
+  @font-face { font-family: "Cormorant Garamond"; src: url("strona/fonts/cormorant-pl.woff2") format("woff2"); font-weight: 400 600; }
+  @font-face { font-family: "Hanken Grotesk"; src: url("strona/fonts/hanken-grotesk-pl.woff2") format("woff2"); font-weight: 400 600; }
+  @page { size: A4; margin: 16mm 17mm 16mm; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; font: 10.4pt/1.5 "Hanken Grotesk", system-ui, sans-serif; color: #1B2540; background: #fff; }
+  .page { max-width: 176mm; margin: 0 auto; }
+  h1 { margin: 0 0 2mm; font: 500 25pt/1.05 "Cormorant Garamond", Georgia, serif; }
+  .sub { margin: 0 0 6mm; color: #555B6E; }
+  h2 { position: relative; margin: 6mm 0 2mm; padding-top: 1mm; font: 500 15pt/1.15 "Cormorant Garamond", Georgia, serif; break-after: avoid; }
+  h2::before { content: ""; position: absolute; left: -5mm; top: 1.6mm; width: 3mm; height: 3mm; border-top: 1px solid #A8255B; border-left: 1px solid #A8255B; }
+  p { margin: 0 0 2mm; }
+  ol, ul { margin: 0 0 2mm; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  li::marker { color: #A8255B; }
+  .link { display: inline-block; margin: 1mm 0 2mm; padding: 2.2mm 3.4mm; background: #1B2540; color: #fff; font-weight: 600; letter-spacing: .01em; }
+  b { font-weight: 600; }
+  code { font: 9.6pt/1 ui-monospace, Menlo, monospace; background: #F2EEE8; padding: .3mm 1mm; }
+  table { width: 100%; border-collapse: collapse; margin: 1mm 0 2mm; }
+  td { padding: 1.6mm 2mm 1.6mm 0; border-top: 1px solid rgba(27,37,64,.18); vertical-align: top; }
+  td:first-child { width: 42mm; font-weight: 600; }
+  .note { padding: 2.5mm 3.5mm; border-left: 2px solid #A8255B; background: #F7F4EF; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 8mm; }
+  .keep { break-inside: avoid; }
+</style>
+</head>
+<body><div class="page">
+
+<h1>Jak zmieniać teksty na stronie kancelarii</h1>
+<p class="sub">Panel edycji strony kjk-kancelaria.netlify.app – krótka instrukcja</p>
+
+<h2>1. Pierwsze logowanie</h2>
+<ol>
+  <li>Otwórz e-mail z zaproszeniem (od DecapBridge) i kliknij link.</li>
+  <li>Wybierz sposób logowania: konto Google, konto Microsoft albo własne hasło.</li>
+  <li>Potem zawsze wchodzisz tutaj – najlepiej dodaj adres do zakładek:</li>
+</ol>
+<p><span class="link">kjk-kancelaria.netlify.app/admin</span></p>
+
+<h2>2. Co gdzie jest</h2>
+<table>
+  <tr><td>Strony</td><td>Strona główna (cytat, zdanie pod cytatem, fakty „O mnie”, kroki współpracy), O mnie, wstęp nad listą specjalizacji, Zasady wynagradzania, Kontakt, Polityka prywatności</td></tr>
+  <tr><td>Dane kontaktowe i&nbsp;media</td><td>telefon, e-mail, adres, Instagram, YouTube, Facebook, LinkedIn, filmy – w dziale Strony</td></tr>
+  <tr><td>Specjalizacje</td><td>osiem specjalizacji: nazwa, krótki opis, wstęp, „Kiedy warto się zgłosić”, „Jak mogę pomóc”, „Co przygotować”, „Warto wiedzieć”</td></tr>
+  <tr><td>Blog – artykuły</td><td>nowe artykuły i ich poprawki</td></tr>
+</table>
+
+<h2>3. Jak poprawić tekst</h2>
+<ol>
+  <li>Kliknij dział po lewej, potem pozycję, np. <b>Specjalizacje → Spadki</b>.</li>
+  <li>Popraw tekst w polu.</li>
+  <li>Kliknij <b>Publish</b> u góry, a potem <b>Publish now</b>.</li>
+  <li>Po 1–2 minutach zmiana jest na stronie – odśwież ją w przeglądarce.</li>
+</ol>
+<div class="note keep">Zmiana po „Publish now” od razu trafia na publiczną stronę. Przeczytaj tekst jeszcze raz, zanim klikniesz.</div>
+
+<div class="cols">
+<div class="keep">
+<h2>4. Wyróżnienia i akapity</h2>
+<ul>
+  <li><code>*słowo*</code> – kursywa (jak „<i>szczególe</i>” w cytacie)</li>
+  <li><code>**słowo**</code> – pogrubienie</li>
+  <li>W polach z akapitami każdy wiersz to nowy akapit.</li>
+  <li>Nie trzeba pilnować „w”, „i”, „z” na końcu wiersza – strona robi to sama.</li>
+</ul>
+</div>
+<div class="keep">
+<h2>5. Listy</h2>
+<ul>
+  <li><b>Add</b> – nowy punkt na końcu listy.</li>
+  <li>Kosz przy punkcie – usunięcie.</li>
+  <li>Przeciągnięcie za uchwyt – zmiana kolejności.</li>
+  <li>Puste pole znika ze strony (np. „Warto wiedzieć”, „Pierwsza rozmowa”).</li>
+</ul>
+</div>
+</div>
+
+<h2 class="keep">6. Nowy artykuł na blog</h2>
+<ol>
+  <li><b>Blog – artykuły → New artykuł</b>.</li>
+  <li>Wpisz tytuł, datę, kategorię, powiązaną specjalizację, wstęp (1–2 zdania) i treść. Śródtytuły – przycisk <b>H2</b>, wypunktowania – przycisk listy.</li>
+  <li>Chcesz zapisać tekst, ale jeszcze go nie pokazywać? Zaznacz <b>Szkic</b>. Gdy będzie gotowy – odznacz i opublikuj.</li>
+  <li>Pierwszy opublikowany artykuł włącza „Blog” w menu; trzy najnowsze pokazują się też na stronie głównej.</li>
+</ol>
+
+<div class="cols">
+<div class="keep">
+<h2>7. Czego nie zmienisz w panelu</h2>
+<p>Układu, kolorów, zdjęć, menu, nagłówków sekcji ani liczby i kolejności specjalizacji – o to poproś projektanta.</p>
+</div>
+<div class="keep">
+<h2>8. Pomyłka?</h2>
+<p>Nic straconego: każda zmiana zapisuje się w historii i można ją cofnąć. Napisz, co i kiedy zmieniłaś – projektant przywróci poprzednią wersję.</p>
+</div>
+</div>
+
+</div></body>
+</html>

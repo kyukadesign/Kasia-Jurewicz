@@ -1,0 +1,22 @@
+{
+  "nazwa": "Reprezentacja wierzycieli w postępowaniach upadłościowych",
+  "krotki_opis": "Zgłoszenie wierzytelności i udział w postępowaniu, gdy dłużnik ogłasza upadłość.",
+  "wstep": "Reprezentuję wierzycieli w postępowaniach upadłościowych – od zgłoszenia wierzytelności po kontakt z syndykiem.",
+  "kiedy": [
+    "Twój dłużnik ogłosił upadłość albo złożono wniosek o jego upadłość.",
+    "Wierzytelności nie ma na liście wierzytelności albo ujęto ją w złej wysokości.",
+    "Chcesz wiedzieć, jakie prawa ma wierzyciel w postępowaniu upadłościowym."
+  ],
+  "pomoc": [
+    "Ocena sytuacji i terminów",
+    "Zgłoszenie wierzytelności",
+    "Udział w postępowaniu, w tym sprzeciwy wobec listy wierzytelności",
+    "Kontakt z syndykiem"
+  ],
+  "przygotuj": [
+    "Dokumenty potwierdzające wierzytelność: umowę, faktury, wyrok lub nakaz zapłaty",
+    "Obwieszczenie o ogłoszeniu upadłości albo sygnaturę sprawy, jeśli je znasz",
+    "Korespondencję z dłużnikiem i syndykiem"
+  ],
+  "warto_wiedziec": "Wierzytelność zgłasza się syndykowi w ciągu 30 dni od obwieszczenia postanowienia o ogłoszeniu upadłości w Krajowym Rejestrze Zadłużonych. Późniejsze zgłoszenie jest możliwe, ale wiąże się z dodatkowymi kosztami i ograniczeniami."
+}

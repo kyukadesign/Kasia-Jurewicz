@@ -1,0 +1,23 @@
+{
+  "nazwa": "Obsługa podmiotów gospodarczych",
+  "krotki_opis": "Stałe wsparcie prawne firmy: umowy, należności, spory z kontrahentami.",
+  "wstep": "Wspieram firmy na bieżąco – przy umowach, należnościach i sporach, także przed sądem.",
+  "kiedy": [
+    "Firma potrzebuje stałego wsparcia prawnego zamiast szukania pomocy od sprawy do sprawy.",
+    "Regularnie zawierasz umowy z kontrahentami i chcesz mieć sprawdzone wzory.",
+    "Pojawia się spór z kontrahentem albo problem z należnościami."
+  ],
+  "pomoc": [
+    "Bieżące doradztwo prawne",
+    "Umowy z kontrahentami",
+    "Należności i spory",
+    "Reprezentacja przed sądami"
+  ],
+  "przygotuj": [
+    "Podstawowe informacje o firmie: odpis z KRS lub wpis w CEIDG",
+    "Wzory umów i dokumentów, z których korzystasz",
+    "Listę bieżących spraw, które wymagają uwagi",
+    "Oczekiwania co do formy współpracy – doraźnie czy stale"
+  ],
+  "warto_wiedziec": ""
+}
