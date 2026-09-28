@@ -1,0 +1,11 @@
+# Netlify buduje stronę po każdej zmianie w repozytorium (także po „Publish” w panelu /admin/):
+# teksty z tresci/*.json + szablony z narzedzia/build.py → gotowa strona w folderze public/.
+[build]
+  command = "python3 narzedzia/build.py public"
+  publish = "public"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+  # Formularz kontaktowy: "" = widoczny, ale nieaktywny (stan obecny);
+  # "netlify" = Netlify Forms (włącz też Forms → Enable form detection i powiadomienia e-mail w panelu Netlify).
+  KJK_FORM_PROVIDER = ""
