@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Tworzy strona/admin/config.yml (Decap CMS) i strona/admin/index.html. Pola po polsku, z podpowiedziami dla Katarzyny.
-Uruchom po zmianie pól:  python3 narzedzia/panel_config.py   (sekcję backend z DecapBridge wpisz w BACKEND poniżej)."""
+Uruchom po zmianie pól:  python3 narzedzia/panel_config.py"""
 import json, os
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # katalog repozytorium
@@ -169,19 +169,31 @@ def y(v, ind=0):
         return f' {v}'
     return ' ' + json.dumps(v, ensure_ascii=False)
 
-BACKEND = '''backend:
-  # ZASTĄP ten fragment kodem, który pokaże DecapBridge po dodaniu strony (Add site). Zostaw resztę pliku bez zmian.
-  name: git-gateway
-  repo: kyukadesign/Kasia-Jurewicz
-  branch: main
-  identity_url: https://auth.decapbridge.com/sites/ID-STRONY
-  gateway_url: https://gateway.decapbridge.com
-'''
+# Logowanie: DecapBridge (PKCE) – fragment z panelu DecapBridge (Add site), 28.09.2026. Identyfikator strony jest publiczny z założenia.
+BACKEND = {
+    'name': 'git-gateway',
+    'repo': 'kyukadesign/Kasia-Jurewicz',
+    'branch': 'main',
+    'auth_type': 'pkce',
+    'base_url': 'https://auth.decapbridge.com',
+    'auth_endpoint': '/sites/3c875636-2ac9-498e-86ec-e30fd8485af1/pkce',
+    'auth_token_endpoint': '/sites/3c875636-2ac9-498e-86ec-e30fd8485af1/token',
+    'gateway_url': 'https://gateway.decapbridge.com',
+    'commit_messages': {   # w historii repozytorium widać, kto i co zmienił
+        'create': 'Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge',
+        'update': 'Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge',
+        'delete': 'Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge',
+        'uploadMedia': 'Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge',
+        'deleteMedia': 'Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge',
+        'openAuthoring': 'Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge',
+    },
+}
+AUTH = {'email_claim': 'email', 'first_name_claim': 'first_name', 'last_name_claim': 'last_name', 'avatar_url_claim': 'avatar_url'}
 text = ('# Panel edycji treści strony Kancelarii KJK: https://kjk-kancelaria.netlify.app/admin/\n'
         '# Decap CMS (https://decapcms.org) + logowanie DecapBridge (https://decapbridge.com).\n'
         '# Pola odpowiadają plikom tresci/*.json; strona buduje się z nich po każdej zmianie (narzedzia/build.py).\n'
-        '# Plik tworzy skrypt panel_config.py – przy zmianie pól łatwiej go wygenerować ponownie niż poprawiać ręcznie.\n\n'
-        + BACKEND + y(config).lstrip('\n') + '\n')
+        '# Plik tworzy skrypt narzedzia/panel_config.py – zmieniaj pola tam i wygeneruj plik ponownie.\n\n'
+        + y({'backend': BACKEND, 'auth': AUTH, **config}).lstrip('\n') + '\n')
 os.makedirs(os.path.join(R, 'strona/admin'), exist_ok=True)
 open(os.path.join(R, 'strona/admin/config.yml'), 'w', encoding='utf-8').write(text)
 
