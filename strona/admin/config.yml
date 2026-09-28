@@ -6,7 +6,7 @@
 backend:
   # ZASTĄP ten fragment kodem, który pokaże DecapBridge po dodaniu strony (Add site). Zostaw resztę pliku bez zmian.
   name: git-gateway
-  repo: NAZWA-KONTA/kjk-kancelaria
+  repo: kyukadesign/Kasia-Jurewicz
   branch: main
   identity_url: https://auth.decapbridge.com/sites/ID-STRONY
   gateway_url: https://gateway.decapbridge.com

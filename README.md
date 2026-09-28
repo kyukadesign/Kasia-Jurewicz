@@ -57,7 +57,7 @@ Przed pracą w kodzie pobierz zmiany Katarzyny (`git pull`), po pracy wyślij sw
 ## Panel – konfiguracja
 
 - `strona/admin/config.yml` – pola panelu; sekcję `backend` wypełnia fragment z DecapBridge (Add site → config). Zmieniając pola, edytuj `narzedzia/panel_config.py` (wpisz tam też `BACKEND` z DecapBridge) i uruchom `python3 narzedzia/panel_config.py`.
-- DecapBridge: repozytorium `kjk-kancelaria`, token GitHub (fine-grained, tylko to repozytorium, Contents: Read and write), adres logowania `https://kjk-kancelaria.netlify.app/admin/index.html`. Zaproszenia: Manage collaborators.
+- DecapBridge: repozytorium `kyukadesign/Kasia-Jurewicz` (https://github.com/kyukadesign/Kasia-Jurewicz), token GitHub (fine-grained, tylko to repozytorium, Contents: Read and write), adres logowania `https://kjk-kancelaria.netlify.app/admin/index.html`. Zaproszenia: Manage collaborators.
 
 ## Historia
 
