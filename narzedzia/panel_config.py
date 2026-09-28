@@ -14,10 +14,10 @@ def f(label, name, widget='string', **kw):
     return d
 
 def lista_obiektow(label, name, pola, summary='{{fields.tytul}}', **kw):
-    return f(label, name, 'list', summary=summary, fields=pola, **kw)
+    return f(label, name, 'list', summary=summary, collapsed=False, fields=pola, **kw)   # punkty od razu rozwinięte
 
 def lista_punktow(label, name, **kw):
-    return f(label, name, 'list', field=f('Punkt', 'punkt', 'text'), **kw)
+    return f(label, name, 'list', collapsed=False, field=f('Punkt', 'punkt', 'text'), **kw)
 
 TYTUL_OPIS = [f('Tytuł', 'tytul'), f('Opis', 'opis', 'text')]
 SPECS = [('rozwody', 'Rozwody'), ('alimenty', 'Alimenty'), ('spadki', 'Spadki'), ('opiniowanie-umow', 'Opiniowanie umów'),
@@ -35,7 +35,7 @@ SPEC_FIELDS = [
     lista_punktow('Co przygotować na rozmowę', 'przygotuj', label_singular='punkt'),
     f('Warto wiedzieć (ramka)', 'warto_wiedziec', 'text', required=False, hint='Puste – ramka nie pokazuje się na stronie.'),
 ]
-DATE = dict(format='YYYY-MM-DD', date_format='DD.MM.YYYY', time_format=False, picker_utc=True)
+DATE = dict(format='YYYY-MM-DD', date_format='DD.MM.YYYY', time_format=False)
 
 config = {
     'locale': 'pl',
@@ -47,7 +47,7 @@ config = {
     'slug': {'encoding': 'ascii', 'clean_accents': True, 'sanitize_replacement': '-'},
     'collections': [
         {'name': 'strony', 'label': 'Strony', 'label_singular': 'strona',
-         'description': 'Teksty stron. Po kliknięciu „Publish” zmiana jest na stronie po 1–2 minutach. ' + KURSYWA,
+         'description': 'Teksty stron. Po kliknięciu „Opublikuj” → „Opublikuj teraz” zmiana jest na stronie po 1–2 minutach. ' + KURSYWA,
          'editor': {'preview': False},
          'files': [
              {'name': 'strona-glowna', 'label': 'Strona główna', 'file': 'tresci/strona-glowna.json', 'preview_path': '', 'fields': [
@@ -77,7 +77,7 @@ config = {
               'preview_path': 'zasady-wynagradzania.html', 'fields': [
                  f('Wstęp', 'wstep', 'text'),
                  lista_obiektow('„Jak to ustalamy” – kroki', 'kroki', TYTUL_OPIS, label_singular='krok'),
-                 f('Formy rozliczenia', 'formy_rozliczenia', 'list', required=False, label_singular='forma',
+                 f('Formy rozliczenia', 'formy_rozliczenia', 'list', required=False, label_singular='forma', collapsed=False,
                    field=f('Forma rozliczenia', 'forma'), hint='Puste – lista nie pokazuje się na stronie.'),
                  lista_obiektow('„Z czego składa się koszt sprawy”', 'koszty', [f('Nazwa', 'nazwa'), f('Opis', 'opis', 'text')],
                                 summary='{{fields.nazwa}}', label_singular='pozycja'),
@@ -132,7 +132,7 @@ config = {
                hint='Pod artykułem pojawi się link do tej specjalizacji i przycisk „Zapytaj o swoją sprawę”.'),
              f('Wstęp', 'wstep', 'text', hint='1–2 zdania: czego dotyczy artykuł i dla kogo jest. Pokazuje się też na liście artykułów.'),
              f('Treść', 'tresc', 'markdown', buttons=MD_BUTTONS, editor_components=[], modes=['rich_text'],
-               hint='Śródtytuły: przycisk „Heading 2”. Tekst ma charakter informacyjny – zastrzeżenie strona dodaje sama.'),
+               hint='Śródtytuły: przycisk H → Nagłówek 2. Zastrzeżenie, że artykuł ma charakter informacyjny, strona dodaje sama.'),
              f('Data aktualizacji', 'aktualizacja', 'datetime', required=False, hint='Tylko gdy treść naprawdę się zmieniła.', **DATE),
              f('Szkic – nie pokazuj jeszcze na stronie', 'szkic', 'boolean', default=False, required=False),
          ]},

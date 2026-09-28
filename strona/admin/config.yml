@@ -24,7 +24,7 @@ collections:
   - name: "strony"
     label: "Strony"
     label_singular: "strona"
-    description: "Teksty stron. Po kliknięciu „Publish” zmiana jest na stronie po 1–2 minutach. Słowo w gwiazdkach (*słowo*) będzie kursywą, w podwójnych (**słowo**) – pogrubione."
+    description: "Teksty stron. Po kliknięciu „Opublikuj” → „Opublikuj teraz” zmiana jest na stronie po 1–2 minutach. Słowo w gwiazdkach (*słowo*) będzie kursywą, w podwójnych (**słowo**) – pogrubione."
     editor:
       preview: false
     files:
@@ -54,6 +54,7 @@ collections:
             name: "o_mnie_fakty"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Tytuł"
                 name: "tytul"
@@ -73,6 +74,7 @@ collections:
             name: "wspolpraca_kroki"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Tytuł"
                 name: "tytul"
@@ -102,6 +104,7 @@ collections:
             name: "sekcje"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Tytuł części"
                 name: "tytul"
@@ -139,6 +142,7 @@ collections:
             name: "kroki"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Tytuł"
                 name: "tytul"
@@ -152,6 +156,7 @@ collections:
             widget: "list"
             required: false
             label_singular: "forma"
+            collapsed: false
             field:
               label: "Forma rozliczenia"
               name: "forma"
@@ -161,6 +166,7 @@ collections:
             name: "koszty"
             widget: "list"
             summary: "{{fields.nazwa}}"
+            collapsed: false
             fields:
               - label: "Nazwa"
                 name: "nazwa"
@@ -186,6 +192,7 @@ collections:
             name: "po_kontakcie"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Tytuł"
                 name: "tytul"
@@ -264,6 +271,7 @@ collections:
             name: "filmy"
             widget: "list"
             summary: "{{fields.tytul}}"
+            collapsed: false
             fields:
               - label: "Link do filmu na YouTube"
                 name: "film"
@@ -315,6 +323,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -323,6 +332,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -331,6 +341,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -361,6 +372,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -369,6 +381,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -377,6 +390,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -407,6 +421,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -415,6 +430,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -423,6 +439,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -453,6 +470,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -461,6 +479,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -469,6 +488,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -499,6 +519,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -507,6 +528,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -515,6 +537,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -545,6 +568,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -553,6 +577,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -561,6 +586,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -591,6 +617,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -599,6 +626,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -607,6 +635,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -637,6 +666,7 @@ collections:
           - label: "Kiedy warto się zgłosić"
             name: "kiedy"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -645,6 +675,7 @@ collections:
           - label: "Jak mogę pomóc"
             name: "pomoc"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -653,6 +684,7 @@ collections:
           - label: "Co przygotować na rozmowę"
             name: "przygotuj"
             widget: "list"
+            collapsed: false
             field:
               label: "Punkt"
               name: "punkt"
@@ -688,7 +720,6 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "DD.MM.YYYY"
         time_format: false
-        picker_utc: true
       - label: "Kategoria"
         name: "kategoria"
         widget: "select"
@@ -745,7 +776,7 @@ collections:
         editor_components: []
         modes:
           - "rich_text"
-        hint: "Śródtytuły: przycisk „Heading 2”. Tekst ma charakter informacyjny – zastrzeżenie strona dodaje sama."
+        hint: "Śródtytuły: przycisk H → Nagłówek 2. Zastrzeżenie, że artykuł ma charakter informacyjny, strona dodaje sama."
       - label: "Data aktualizacji"
         name: "aktualizacja"
         widget: "datetime"
@@ -754,7 +785,6 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "DD.MM.YYYY"
         time_format: false
-        picker_utc: true
       - label: "Szkic – nie pokazuj jeszcze na stronie"
         name: "szkic"
         widget: "boolean"
