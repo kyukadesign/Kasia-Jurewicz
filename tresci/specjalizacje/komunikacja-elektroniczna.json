@@ -1,22 +1,21 @@
 {
   "nazwa": "Prawo komunikacji elektronicznej",
-  "krotki_opis": "Usługi telekomunikacyjne i komunikacja elektroniczna – po stronie firm i ich klientów.",
-  "wstep": "Doradzam w sprawach usług telekomunikacyjnych i komunikacji elektronicznej – dostawcom usług, firmom i ich klientom.",
+  "krotki_opis": "Usługi telekomunikacyjne i komunikacja elektroniczna – po stronie firm ",
+  "wstep": "Doradzam w sprawach usług telekomunikacyjnych i komunikacji elektronicznej – dostawcom usług",
   "kiedy": [
-    "Świadczysz usługi telekomunikacyjne lub internetowe i chcesz sprawdzić umowy, regulaminy oraz obowiązki wobec użytkowników.",
-    "Wysyłasz informacje marketingowe e-mailem, SMS-em lub telefonicznie albo używasz plików cookies na stronie.",
-    "Masz spór z dostawcą usług telefonicznych lub internetowych."
+    ".",
+    "."
   ],
   "pomoc": [
-    "Umowy o świadczenie usług telefonicznych i internetowych",
-    "Obowiązki dostawców usług wobec użytkowników",
-    "Zgody na kontakt marketingowy i zasady dotyczące plików cookies",
-    "Spory z dostawcą usług"
+    ".",
+    ".",
+    ".",
+    "."
   ],
   "przygotuj": [
-    "Umowę z dostawcą usług albo wzory umów z klientami",
-    "Regulaminy, cenniki i treść zgód marketingowych",
-    "Reklamacje i korespondencję w sprawie"
+    ".",
+    ".",
+    "."
   ],
-  "warto_wiedziec": "Od 10 listopada 2024 roku obowiązuje ustawa Prawo komunikacji elektronicznej. Zastąpiła Prawo telekomunikacyjne i objęła m.in. zasady zgód na marketing bezpośredni oraz plików cookies."
+  "warto_wiedziec": ""
 }
