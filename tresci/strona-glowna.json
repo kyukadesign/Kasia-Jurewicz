@@ -1,9 +1,5 @@
 {
-  "cytat": "Problem najczęściej tkwi w *szczególe*, który trudno będzie ci dostrzec bez wsparcia profesjonalnego i zaangażowanego prawnika.",
-  "zdanie": "Pomagam osobom prywatnym i firmom – w sprawach rodzinnych i spadkowych, przy umowach i odzyskiwaniu należności.",
-  "podpis_zdjecia": "Własna praktyka od 2007 roku",
   "specjalizacje_opis": "Wybierz temat swojej sprawy. Dowiesz się, jak mogę pomóc i co przygotować do rozmowy.",
-  "o_mnie_zdanie": "Prawo rodzinne uważam za najdelikatniejszą gałąź prawa – wymaga od prawnika ogromnego zaangażowania.",
   "o_mnie_fakty": [
     {
       "tytul": "Od 2007 roku",
@@ -22,7 +18,11 @@
       "opis": "od 2010 roku dla osób w kryzysie; porady w projekcie „Sieć Pomocy Ofiarom Przestępstw”; medal „Zasłużony dla Wymiaru Sprawiedliwości” (2011)"
     }
   ],
-  "wspolpraca_opis": "Zakres pomocy i sposób rozliczenia uzgadniam z Tobą przed rozpoczęciem pracy.",
+  "o_mnie_zdanie": "Prawo rodzinne uważam za najdelikatniejszą gałąź prawa – wymaga od prawnika ogromnego zaangażowania.",
+  "podpis_zdjecia": "Własna praktyka od 2007 roku",
+  "cytat": ".",
+  "kontakt_zdanie": "Napisz kilka słów o tym, czego dotyczy sprawa – odezwę się, żeby umówić rozmowę.",
+  "zdanie": "Pomagam klientom indywidulanym w sprawach rodzinnych( w tym w zakresie problematyki  przeciwdziałania przemocy domowej), cywilnych i spadkowych. \nZajmuję się  również  obsługą podmiotów gospodarczych- dochodzeniem wierzytelności, prowadzeniem procesów i opiniowaniem umów.\n\n",
   "wspolpraca_kroki": [
     {
       "tytul": "Kontakt",
@@ -41,5 +41,5 @@
       "opis": "Działam w uzgodnionym zakresie i informuję Cię o kolejnych krokach."
     }
   ],
-  "kontakt_zdanie": "Napisz kilka słów o tym, czego dotyczy sprawa – odezwę się, żeby umówić rozmowę."
+  "wspolpraca_opis": "Zakres pomocy i sposób rozliczenia uzgadniam z Tobą przed rozpoczęciem pracy."
 }
