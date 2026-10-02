@@ -3,7 +3,16 @@
   "krotki_opis": "Usługi telekomunikacyjne i komunikacja elektroniczna – po stronie firm ",
   "wstep": "Doradzam w sprawach usług telekomunikacyjnych i komunikacji elektronicznej – dostawcom usług",
   "kiedy": [],
-  "pomoc": [],
-  "przygotuj": [],
+  "pomoc": [
+    ".",
+    ".",
+    ".",
+    "."
+  ],
+  "przygotuj": [
+    ".",
+    ".",
+    "."
+  ],
   "warto_wiedziec": ""
 }
